@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap');
+:root{
+	--color-naranja: #ffac2c;
+	--color-negro: #29373c;
+	--color-fondogris: #f9fbf3;
+	--color-footer: #ED8F03;
+	--color-texto: #999;
+}
+
+h1{
+	font-family: shojumaru;
+	color: #fff;
+	padding-top: 20px;
+	text-align: left;
+	margin-left: -50px;
+	font-size: 20px;
+}
+
+#hero h2{
+	font-size: 3.5em;
+	font-family: shojumaru;
+	color: var(--color-naranja);
+	padding-top: 10%;
+	padding-bottom: 10px;
+	font-weight: 700;
+	text-align: center;
+}
+
+#hero p{
+	font-size: 40px;
+	color: #fff;
+	font-family: Nanum Pen Script;
+}
+
+#counter {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.container {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.message {
+  font-size: 4rem;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji {
+  padding: 0 .25rem;
+}
+
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	height: 100%vh;
+	color: transparent;
+	padding-top: 3%;
+}
+
+#hero h2{
+	font-size: 4.5em;
+	padding-top: 12%;
+	font-weight: 700;
+	color: var(--color-naranja);
+}
+
+#hero .info{
+	margin-left: -10%;
+}
+
+
+
+#hero a{
+	font-size: 1.2em;
+	background-color: var(--color-naranja);
+	color: #000;
+	font-family: Stylish;
+	margin-top: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 80px;
+}
+
+.btn-primary {
+	text-transform: uppercase;
+	background-color: var();
+	padding: 5% 1%;
+	border: 0;
+	font-weight: 500;
+	box-shadow: 0px 0px 10px 0px rgba(247, 81, 96, 0.50);
+}
+
+#home-continue{
+	backround-color: var(--color-fondogris);	
+	font-family: Nanum Pen Script;
+}
+
+#home-continue h3{
+	padding: 5% 0 1% 0;
+	color: var(--color-negro);
+	font-size: 50px;
+	text-align: center;
+}
+
+#home-continue p{
+	font-size: 30px;
+	color: var(--color-negro);
+	padding-bottom: 1%;
+}
+
+.info-icon{
+	padding: 25% 5%;
+	transition: all 0.3s ease;
+}
+
+#home-continue .info-contenido{
+	overflow: hidden;
+}
+
+#home-continue img{
+	margin-right: 10px;	
+}
+
+#home-continue article{
+	padding-top: 0px;
+}
+
+h4{
+	font-family: Stylish;
+	color: #989898;
+}
+
+#FAQ{
+	font-family: stylish;
+	padding: 10% 0 10%;
+	background-color: var(--color-fondogris);
+}
+
+#FAQ h2{
+	font-family: Nanum Pen Script;
+	font-size: 60px;
+}
+
+#FAQ h4{
+	font-family: Nanum Pen Script;
+}
+.info-icon:hover{
+	box-shadow: 0 0 38px var(--color-naranja);
+	trasnform: translateY(-10px);
+	transition: all 0.3s ease;
+}
+
+.section{
+	padding: 8% 10% 5%;
+}
+
+.titulo{
+	font-size: 3em;
+	font-weight: 600;
+	margin-bottom: 7%;
+}
+
+#features{
+	background-color: var(--color-gris);
+}
+#features .titulo{
+	margin-bottom: 2%;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+#service{
+	padding: 10% 0 10%;
+	font-family: stylish;
+}
+
+#pump h2{
+	padding-top: 10px;
+	font-family: Nanum Pen Script;
+}
+
+#footer{
+	align-content: center;
+	align-items: center;
+	padding: 10% 0 10%;
+	background-color: var(--color-footer);
+}
